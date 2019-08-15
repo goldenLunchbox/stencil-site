@@ -319,7 +319,7 @@ In cases where you need to get a direct reference to an element, like you would 
 })
 export class AppHome {
 
-  textInput!: HTMLInputElement;
+  textInput: HTMLInputElement;
 
   handleSubmit = (ev: Event) => {
     ev.preventDefault();
